@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ms+Madi&family=Rock+Salt&display=swap');
+
+body{
+    background-image:url("../images/HongKongNight.jpg"); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Anton','Arial','Rock Salt','Ms Madi';
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
 .logo {
-    width: 80px
+    width: 15%;
+    padding-bottom: 30px;
+}padding
+
+.logo_link {
+    padding-bottom: 30px;
 }
 
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -18,12 +41,16 @@ header {
 }
 
 nav a{
-    color: #d9c2a3;
+    color: #8ed351;
     text-decoration: none;
+    padding: 35px;
 }
 
 .home-title{
     color: #d9c2a3;
+    font-family: 'Rock Salt','Anton','Arial','Ms Madi';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 nav a:hover {
@@ -31,20 +58,31 @@ nav a:hover {
     color: #d9c2a3;
 }
 
-.book{
-    background-color: #0e4dc4; 
-    color: #d9c2a3;
+.book, .join{
+    background-color: #d9c2a3; 
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 
-.join{
-    background-color: #fcfbfb;
-    color: #d9c2a3;
-    text-decoration: none;
+.card-img {
+    border: 10px solid #d9c2a3;
 }
+
+.mountain {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 .book:hover{
-    background-color: #fcfbfb;
-    color: #d9c2a3;
+    background-color: #1976ab;
+    color: #d9a3bb;
 }
 
 .join:hover{
@@ -54,19 +92,34 @@ nav a:hover {
 
 #background {
     height: 725px;
-    background-color: #fcfbfb; 
+    background-color: #d9c2a3; 
 }
 
 .msg{
-    background-color: #fefb3f; 
+    background-color: #fefb3f;
+    line-height: 1.5em;
+    padding: 1em;
 }
 
-.msg a{
-    background-color: #fefb3f; 
+.msg h2 {
+    background-color: #fefb3f;
+    font-family: 'Rock Salt','Anton','Arial','Ms Madi';
+}
+
+
+.msg p {
+    background-color: #fefb3f;
+    font-size: 0.8em;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 
 footer{
-    color: #4614a3;
+    background-color: #fefb3f;
+    color: #98969b;
+    margin-top: 200px;
 }
 
 footer a{
@@ -80,4 +133,5 @@ footer a{
 
 footer p a:hover {
     text-decoration: underline;
-}    
+}   
+
