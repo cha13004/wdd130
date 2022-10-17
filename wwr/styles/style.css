@@ -15,10 +15,15 @@ body{
     margin: 0;
   }
 
+#hero {
+    border: 1px solid #d9c2a3;
+    padding: 2em;
+}
+  
 .logo {
     width: 15%;
     padding-bottom: 30px;
-}padding
+}
 
 .logo_link {
     padding-bottom: 30px;
@@ -37,8 +42,10 @@ body {
     background-color: #fcfbfb; 
 }
 header {
-    background-color:#0b829d;;
+    background-color:#0b829d;
+    padding-left: 10px;
 }
+
 
 nav a{
     color: #8ed351;
@@ -130,6 +137,12 @@ footer a{
     max-width: 1600px;
     margin: 0 auto;
 }
+
+#content header a {
+    padding-left: 10px;
+}
+
+
 
 footer p a:hover {
     text-decoration: underline;
