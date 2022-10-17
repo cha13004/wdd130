@@ -1,0 +1,69 @@
+#home-title {
+    color:aliceblue;
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+}
+
+
+.home-grid {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+#p_1 {
+    font-size: 15px;
+    color:aliceblue;
+    text-align: center;
+}
+
+#p_2 {
+    font-size: 20px;
+    color:aliceblue;
+    text-align: center;
+}
+
+#p_3 {
+    font-size: 20px;
+    color:aliceblue;
+    text-align: center;
+}
+
+#quote_2 {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#President-Nelson {
+    text-align: center;
+}
+
+#President-Nelson-image {
+    max-width: 50%
+}
+
+#content {
+    background-color: #1098e7;
+}
+
+body {
+    margin: 20%
+}
+
+ol{
+    color:black;
+    margin: 0 auto;
+    padding-left: 20px
+}
+
+footer {
+    text-align: center;
+    color:black;
+}
+
+#home-title:hover {
+    color:black
+}
