@@ -215,7 +215,7 @@ nav a{
     grid-row: 2/3;
 }
 #background {
-    grid-column: 1//11;
+    grid-column: 1/11;
     grid-row: 4/9;
 }
 .mountains {
