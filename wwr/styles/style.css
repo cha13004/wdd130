@@ -112,6 +112,7 @@ main section img {
 
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+    text-align: center;
 }
 
 footer{
