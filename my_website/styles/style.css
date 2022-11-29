@@ -113,14 +113,14 @@ body {
 }
 
 header {
-    background-color:rgb(11,130,157,0.6);
+    background-color:#F77F00;
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 
 nav a{
-    color: #8ed351;
+    color: #d9c2a3;
     text-decoration: none;
     padding: 2em;
     font-size: 1.5em;
@@ -240,7 +240,7 @@ nav {
 }
 
 nav a{
-    color: #8ed351;
+    color: #d9c2a3;
     text-decoration: none;
     padding: 35px;
 }
@@ -319,7 +319,7 @@ nav a{
 }
 
 footer {
-    background-color: #6f7364;
+    background-color: #023E8A;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
@@ -373,6 +373,7 @@ p {
 
 h1 {
     font-family: "Roboto","Helvetica", "sans-serif";
+    color: #023E8A;
 }
 
 @media screen and (max-width: 900px) {
