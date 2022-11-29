@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -121,6 +123,7 @@ nav a{
     color: #8ed351;
     text-decoration: none;
     padding: 2em;
+    font-size: 1.5em;
 }
 
 .home-title{
@@ -346,7 +349,30 @@ footer {
 }
 
 #reactor_chimney {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width:60%
+}
+
+#nuclear-submarine {
+    display: block;
+    margin: 0 auto;
+    width:60%
+}
+
+#glowing_molten_salt {
+    display: block;
+    margin: 0 auto;
+    width:60%
+}
+
+p {
+    font-family:  "Source Sans Pro", "Helvetica", "sans-serif";
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: "Roboto","Helvetica", "sans-serif";
 }
 
 @media screen and (max-width: 900px) {
