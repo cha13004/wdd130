@@ -22,7 +22,46 @@
         </nav>
     </header>
 
-    <img id="reactor_chimney" src="pictures/Reactor_chimney.jpg" alt="image for homepage">
+    <!--
+        <img id="reactor_chimney" src="pictures/Reactor_chimney.jpg" alt="image for homepage">
+     -->
+
+     <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="pictures/Reactor_chimney.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="pictures/Submarine.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="pictures/Glowing_molten_salt.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    
+
     <h1 id="subpage-title">History</h1>
     <p>The development of fission nuclear reactors can be traced back to 1930s. Shortly after neutron was discovered by James Chadwick in 1932, it was observed that nuclear reaction could prompted by neutrons. In 1939, it was observed that the nuclear chain reaction can be maintained by the neutrons released during the nuclear reaction of Uranium. During the nuclear chain reaction, a Uranium nucleus is collided by a neutron. After the impact, the Uranium nucleus split into several energized lighter and one to three energized neutrons. The kinetic energy of the reaction products convert to the thermal energy and the neutrons will impact other Uranium atoms and continue the reactions. Tremendous amount of heat energy is then released from the nuclear reaction. The nuclear chain reaction was first proposed to be used for development of the next generation massive bombs. And the research later results in the atomic bomb that changed the human history. In the 1940S, scientists and engineers began to know more about how to control the nuclear reaction and started to use it as a energy source. Unlike atomic bomb that release tremendous energy in a fracture of a second, nuclear reactors release thermal energy stably and gradually for months or even years.</p>
 
@@ -43,5 +82,26 @@
         </div>
     </footer>
 
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
 </body>
 </html>
