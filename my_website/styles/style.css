@@ -11,21 +11,26 @@
 #reactor_chimney {
     display: block;
     margin: 0 auto;
-    width:60%
+    width:100%
 }
 
 #nuclear-submarine {
     display: block;
     margin: 0 auto;
-    width:60%
+    width:100%
 }
 
 #glowing_molten_salt {
     display: block;
     margin: 0 auto;
-    width:60%
+    width:100%
 }
 
+#reactor-cycle-LWR {
+  display: block;
+  margin: 0 auto;
+  width:100%
+}
 /*Different components for the wireframe structure*/
 body {
     background-color: #efefefe3; 
@@ -282,3 +287,16 @@ form {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+/*****************************************************************/
+/*This is for the wireframe on the Light Water reactor subpage*/
+#subpage-structure {
+  /* This is the parent of the activity 1 boxes. */
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+
