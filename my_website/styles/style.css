@@ -31,6 +31,13 @@
   margin: 0 auto;
   width:100%
 }
+
+#reactor-cycle-MSR {
+  display: block;
+  margin: 0 auto;
+  width:100%
+}
+
 /*Different components for the wireframe structure*/
 body {
     background-color: #efefefe3; 
