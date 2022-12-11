@@ -291,7 +291,7 @@ form {
 
 /*****************************************************************/
 /*This is for the wireframe on the Light Water reactor subpage*/
-#subpage-structure {
+.subpage-structure {
   /* This is the parent of the activity 1 boxes. */
   display: grid;
   grid-template-rows: 1fr 1fr;
